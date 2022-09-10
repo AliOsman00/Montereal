@@ -1,0 +1,62 @@
+#services {
+    min-height: 663px;
+}
+
+.items {
+    float: left;
+    margin-top: 120px;
+}
+
+.title-text {
+    margin-top: 27px;
+    font-size: 50px;
+    letter-spacing: 4px;
+    line-height: 76px;
+}
+
+.description {
+    margin-top: 30px;
+    width: 372px;
+    height: 82px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #181a1f;
+}
+
+.launch-btn {
+    display: flex;
+    justify-content: center;
+}
+.launch {
+    width: 372px;
+    height: 72px;
+    margin-top: 50px;
+    background-color: #fff;
+    border: 2px solid #ffda00 ;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    color: #181a1f;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.launch:hover {
+    width: 400px;
+    height: 90px;
+    transition: 0.4s;
+}
+
+@media only screen and (max-width: 900px) {
+    .launch-btn {
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .items-conrainer {
+        text-align: center;
+    }
+    .title-text {
+        text-align: center;
+    }
+}

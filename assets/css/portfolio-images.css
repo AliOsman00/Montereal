@@ -1,0 +1,79 @@
+#portfolio-images {
+    background-color: #17191e;
+    min-height: 900px;
+}
+
+.worker-images {
+    margin-top: 20px;
+}
+.worker-image {
+    position: relative;
+    max-width: 500px;
+    height: 450px;
+    background-color:#ddd;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    visibility: visible;
+    transition: .3s;
+}
+
+.hov {
+    background-color: #ffda00;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.hov-title {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 96px;
+    color: #181a1f;
+    text-align: center;
+}
+
+.hov-text {
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hov-button {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 8px;
+    background-color: #ffda00;
+    color: #181a1f;
+    width: 178px;
+    height: 45px;
+    margin: 100px 150px auto 150px;
+    border: 1px solid #fff;
+    
+}
+
+.hov:hover {
+    visibility: visible;
+    cursor: pointer;
+}
+
+.worker-image:hover > .hov { 
+    visibility: visible;
+    transition: 0.4s;
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 550px) {
+    .worker-image {
+        max-width: 350px;
+        height: 300px;
+    }
+    .hov-button {
+        margin: 20px 0 0 82px;
+    }
+}

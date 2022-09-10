@@ -1,0 +1,30 @@
+#contact-info {
+    background-color: #ffda00;
+    min-height: 320px;
+}
+
+.contact-icons {
+    margin-top: 120px ;
+}
+
+.contact-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.contact-icon p {
+    margin-left: 23px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact-icon {
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .contact-icon {
+        margin-bottom: 30px;
+    }
+}

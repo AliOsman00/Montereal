@@ -1,0 +1,43 @@
+#portfolio {
+    min-height: 530px;
+}
+
+.navigation {
+    margin-top: 120px;
+}
+
+#portfolio p {
+    color: #181a1f;
+}
+
+.navigation-buttons {
+    margin-top: 120px;
+    text-align: center;
+}
+
+div.navigation-buttons > button {
+    min-width: 93px;
+    height: 44px;
+    font-size: 20px;
+    border: 2px solid #ffdb00;
+    color: #181a1f;
+    background-color: #fff;
+    margin-left: 25px;
+    transition: 0.3s;
+
+}
+
+div.navigation-buttons > button:hover {
+    background-color: #ffdb00;
+    transition: 0.4s;
+}
+
+@media only screen and (max-width: 900px) {
+    div.navigation-buttons {
+        margin-bottom: 50px;
+    }
+
+    div.navigation-buttons > button {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,76 @@
+header {
+    padding-top: 43px;
+    min-height: 1080px;
+    background-color: #17191e;
+}
+
+.logo{
+    float: left;
+}
+.menu {
+    padding-top:7px;
+    float: right;
+}
+
+header .head-title > h1 {
+    font-size: 176px;
+    letter-spacing: 13px;
+    line-height: 180px;
+    margin-top: 200px;
+}
+header .head-text > p {
+    max-width: 749px;
+    min-height: 66px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #ffffff;
+}
+header .head-button > button {
+    width: 232px;
+    height: 72px;
+    margin-top: 20px;
+    background-color: #17191e;
+    border: 3px solid #ffda00;
+    border-radius: 25px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+header .head-button > button:hover {
+    width: 262px;
+    height: 80px;
+    transition: 0.4s;
+}
+
+@media only screen and (max-width: 900px) {
+    header .head-title > h1 {
+      font-size: 80px;
+      line-height: 80px;
+    }
+}
+@media only screen and (max-width: 550px) {
+    header {
+        min-height: 700px;
+    }
+    
+    header .head-title > h1 {
+      font-size: 50px;
+      line-height: 50px;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    header .head-text > p{
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    header .head-button {
+        text-align: center;
+        margin-top: 50px;
+    }
+}

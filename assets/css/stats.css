@@ -1,0 +1,25 @@
+#stats {
+    min-height: 400px;
+    background-color: #17191e;
+}
+
+.stats-container {
+    text-align: center;
+    margin-top: 94px;
+}
+
+h3.stats-number {
+    margin-top: 95px;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+p.stats-text {
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 76px;
+    text-align: center;
+}

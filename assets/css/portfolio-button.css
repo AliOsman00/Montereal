@@ -1,0 +1,37 @@
+#portfolio-button {
+    min-height: 300px;
+}
+.load-button {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.load-button > button {
+    width: 372px;
+    height: 72px;
+    background-color: #fff;
+    border: 2px solid #ffda00;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 15px;
+    color: #181a1f;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.load-button > button:hover {
+    width: 395px;
+    height: 82px;
+    transition: 0.4s;
+}
+
+@media only screen and (max-width: 550px) {
+    #portfolio-button {
+        min-height: 200px;
+    }
+    .load-button {
+        min-height: 200px;
+    }
+    
+}
